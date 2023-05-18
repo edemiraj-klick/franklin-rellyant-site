@@ -12,12 +12,14 @@
 
  :root {
   /* colors */
+  --brand-color: #3c0a5f;
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
   --highlight-background-color: #ccc;
   --text-color: #000;
+  --text-color-white: #fff;
 
   /* fonts */
   --body-font-family: 'helvetica neue', helvetica, ubuntu, roboto, noto, sans-serif;
@@ -65,6 +67,12 @@ body {
 
 body.appear {
   display: unset;
+}
+
+.section {
+  width: 100%;
+  max-width: 1290px;
+  margin: auto;
 }
 
 header {
